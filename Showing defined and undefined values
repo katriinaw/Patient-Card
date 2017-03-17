@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Non-exsistent values</title>
+  <script type="text/javascript">
+  
+  var patientBmi1 = 24
+  var patientBmi2 = undefined
+  
+  var shownBmi1 = "";
+  shownBmi1 = patientBmi1 ? patientBmi1 : "Undefined";
+  document.write(shownBmi1, "<br>");
+  
+  var shownBmi2 = "";
+  shownBmi2 = patientBmi2 ? patientBmi2 : "Undefined";
+  document.write(shownBmi2);
+  
+  </script>
+</head>
+<body>
+  <h1>Non-exsistent values<h/1>
+</body>
+</html>
